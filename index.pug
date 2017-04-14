@@ -1,30 +1,63 @@
 extends structure/_layout.pug
 
 block content
-    .uk-grid
-            .uk-width-1-1
-                .uk-slidenav-position(data-uk-slideshow="{autoplay:true, kenburns: true}")
-                    ul.uk-slideshow
-                        li
-                            img(src="img/html.jpg" alt="")
-                            .uk-overlay-panel.uk-overlay-background.uk-overlay-fade
-                                p Ants Rule!
-                        li
-                            img(src="img/java.jpg" alt="")
-                        li
-                            img(src="img/programmer3.jpg" alt="")
-                        li
-                            img(src="img/coffeeCode1.jpg" alt="")
+    .uk-grid.uk-grid-divider
+        .uk-width-medium-1-3
+            article.uk-article.left-panel
+                h1.uk-article-title The site to develop web devlopers
+                p.uk-article-meta Last update 14 April 2017
+                p.uk-article-lead Find the latest articles on new software releases. Read about the latest trends. Watch video tutorials designed to hone your skills. Browse the hotest jobs in this field and receive free monthly updates. The blog is designed to be the ultimate resource for web developers.
+                hr.uk-article-divider
+        .uk-width-medium-1-3
+           .uk-slidenav-position(data-uk-slideshow="{autoplay:true, kenburns: true}")
+                ul.uk-slideshow
+                    li
+                        img(src="img/html.jpg" alt="")
+                        .uk-overlay-panel.uk-overlay-background.uk-overlay-fade
+                            h3 Read the latest web development articles
+                            button.uk-button.uk-button-large  Click here
+                    li
+                        img(src="img/coffeeCode.jpg" alt="")
+                        .uk-overlay-panel.uk-overlay-background.uk-overlay-fade
+                            h3 Watch the latest web development video tutorials
+                            button.uk-button.uk-button-large  Click here
+                    li
+                        img(src="img/programmer3.jpg" alt="")
+                        .uk-overlay-panel.uk-overlay-background.uk-overlay-fade
+                            h3 Find the most sought after web development jobs
+                            button.uk-button.uk-button-large  Click here
+                    li
+                        img(src="img/coffeeCode1.jpg" alt="")
+                        .uk-overlay-panel.uk-overlay-background.uk-overlay-fade
+                            h3 Receive a free monthly newsletter
+                            button.uk-button.uk-button-large  Click here
 
-                    a(href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous")
-                    a(href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next")
-                    ul.uk-dotnav.uk-dotnav-contrast.uk-position-bottom.uk-flex-center
-                        li(data-uk-slideshow-item="0")
-                            a(href="")
-                        li(data-uk-slideshow-item="1")
-                            a(href="")
-                        li(data-uk-slideshow-item="2")
-                            a(href="")
+                a(href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous")
+                a(href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next")
+                ul.uk-dotnav.uk-dotnav-contrast.uk-position-bottom.uk-flex-center
+                    li(data-uk-slideshow-item="0")
+                        a(href="")
+                    li(data-uk-slideshow-item="1")
+                        a(href="")
+                    li(data-uk-slideshow-item="2")
+                        a(href="")
+        .uk-width-medium-1-3
+            .tm-article-subtitle.right-panel
+                h3 Follow us on:
+                .uk-block.uk-block-secondary.uk-contrast
+                    article.uk-article
+                        .uk-panel.icon
+                            a(href="https://github.com/" class="uk-icon-hover uk-icon-medium uk-icon-github")  Github
+                        .uk-panel.icon
+                            a(href="https://twitter.com/?lang=en" class="uk-icon-hover uk-icon-medium uk-icon-twitter")  Twitter
+                        .uk-panel.icon
+                            a(href="https://www.facebook.com/" class="uk-icon-hover uk-icon-medium uk-icon-facebook-square")  Facebook
+                        .uk-panel.icon
+                            a(href="https://www.tumblr.com/" class="uk-icon-hover uk-icon-medium uk-icon-tumblr-square")  Tumblr
+                        .uk-panel.icon
+                            a(href="https://www.linkedin.com/uas/login" class="uk-icon-hover uk-icon-medium uk-icon-linkedin-square")  Linkedin
+
+ 
 
 
 

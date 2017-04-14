@@ -3,7 +3,7 @@ extends structure/_layout.pug
 block content
     .uk-grid.uk-grid-divider
         .uk-width-medium-1-3
-            article.uk-article
+            article.uk-article.left-panel
                 h1.uk-article-title Keep up-to-date with the latest news
                 p.uk-article-meta Last update 14 April 2017
                 p.uk-article-lead Keep up-to-date with the latest web development news. Fill in the form to receive a monthly newsletter containing all the latest trends amd reviews of software releases. Additionally, fill in the option to receive breaking news, special offers and more...
@@ -15,7 +15,7 @@ block content
                     .uk-form-row
                         label.uk-form-label(for="") Name:
                         .uk-form-controls
-                            input(type="text" paceholder="Enter name")
+                            input(type="text" placeholder="Enter name")
                     .uk-form-row
                         label.uk-form-label(for="") Email:
                         .uk-form-controls
@@ -56,7 +56,7 @@ block content
                         .uk.form-controls
                             button.uk-button.uk-button-large Submit form
         .uk-width-medium-1-3
-            .tm-article-subtitle
+            .tm-article-subtitle.right-panel
                 h3 Follow us on:
                 .uk-block.uk-block-secondary.uk-contrast
                     article.uk-article
