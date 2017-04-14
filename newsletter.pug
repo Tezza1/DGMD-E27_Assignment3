@@ -3,7 +3,11 @@ extends structure/_layout.pug
 block content
     .uk-grid.uk-grid-divider
         .uk-width-medium-1-3
-            p
+            article.uk-article
+                h1.uk-article-title Keep up-to-date with the latest news
+                p.uk-article-meta Last update 14 April 2017
+                p.uk-article-lead Keep up-to-date with the latest web development news. Fill in the form to receive a monthly newsletter containing all the latest trends amd reviews of software releases. Additionally, fill in the option to receive breaking news, special offers and more...
+                hr.uk-article-divider
         .uk-width-medium-1-3
             form.uk-form.uk-form-stacked
                 fieldset(data-uk-margin)
@@ -52,4 +56,17 @@ block content
                         .uk.form-controls
                             button.uk-button.uk-button-large Submit form
         .uk-width-medium-1-3
-            p
+            .tm-article-subtitle
+                h3 Follow us on:
+                .uk-block.uk-block-secondary.uk-contrast
+                    article.uk-article
+                        .uk-panel.icon
+                            a(href="https://github.com/" class="uk-icon-hover uk-icon-medium uk-icon-github")  Github
+                        .uk-panel.icon
+                            a(href="https://twitter.com/?lang=en" class="uk-icon-hover uk-icon-medium uk-icon-twitter")  Twitter
+                        .uk-panel.icon
+                            a(href="https://www.facebook.com/" class="uk-icon-hover uk-icon-medium uk-icon-facebook-square")  Facebook
+                        .uk-panel.icon
+                            a(href="https://www.tumblr.com/" class="uk-icon-hover uk-icon-medium uk-icon-tumblr-square")  Tumblr
+                        .uk-panel.icon
+                            a(href="https://www.linkedin.com/uas/login" class="uk-icon-hover uk-icon-medium uk-icon-linkedin-square")  Linkedin
