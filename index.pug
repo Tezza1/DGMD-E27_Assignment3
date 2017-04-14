@@ -1,0 +1,32 @@
+extends structure/_layout.pug
+
+block content
+    .uk-grid
+            .uk-width-1-1
+                .uk-slidenav-position(data-uk-slideshow="{autoplay:true, kenburns: true}")
+                    ul.uk-slideshow
+                        li
+                            img(src="img/html.jpg" alt="")
+                            .uk-overlay-panel.uk-overlay-background.uk-overlay-fade
+                                p Ants Rule!
+                        li
+                            img(src="img/java.jpg" alt="")
+                        li
+                            img(src="img/programmer3.jpg" alt="")
+                        li
+                            img(src="img/coffeeCode1.jpg" alt="")
+
+                    a(href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous")
+                    a(href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next")
+                    ul.uk-dotnav.uk-dotnav-contrast.uk-position-bottom.uk-flex-center
+                        li(data-uk-slideshow-item="0")
+                            a(href="")
+                        li(data-uk-slideshow-item="1")
+                            a(href="")
+                        li(data-uk-slideshow-item="2")
+                            a(href="")
+
+
+
+
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/components/slideshow.min.js"></script>
+    </head>
+    <body>
+        <div class="uk-grid">
+            <div class="uk-width-1-1">
+					<h1 class="topLogo">
+					    <div id="logoCircle">
+							<i class="fa fa-leaf" aria-hidden="true"></i> The Big Brand
+						</div>
+					</h1>
+            </div>
+            <div class="uk-width-1-1">
+                <nav class="uk-navbar uk-navbar-attached">
+					<a href="" class="uk-navbar-brand">The Brand</a>
+                    <ul class="uk-navbar-nav uk-navbar-center">
+                        <li>
+                            <a href="#" class="uk-navbar-nav-subtitle">Home<div>A home</div></a>
+                        </li>
+                        <li>
+                            <a href="#" class="uk-navbar-nav-subtitle">About<div>A about</div></a>
+                        </li>
+                        <li>
+                            <a href="#" class="uk-navbar-nav-subtitle">Product<div>A product</div></a>
+                        </li>
+                        <li>
+                            <a href="#" class="uk-navbar-nav-subtitle">Service<div>A service</div></a>
+                        </li>
+                        <li><a href="#" class="uk-navbar-nav-subtitle">Contact us<div>A contact us</div></a></li>
+                    </ul>
+					<div class="uk-navbar-flip">
+						<div class="uk-navbar-content uk-hidden-small">
+							<a href="" class="uk-navbar-toggle uk-navbar-toggle-alt"></a>
+							<form class="uk-form uk-margin-remove uk-display-inline-block">
+                                <input type="text" placeholder="Search">
+                                <button class="uk-button" id="nav-button">Submit</button>
+                            </form>
+                        </div>
+					</div> 
+                </nav>
+          
+            </div>
+        </div> <!-- end grid -->
+        <div class="uk-grid">
+            <div class="uk-width-1-1">
+                <div  data-uk-slideshow="{autoplay:true, kenburns: true}" class="uk-slidenav-position">
+                    <ul class="uk-slideshow">
+                        <li><img src="http://lorempixel.com/640/480/nature/1" alt="">
+                            <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade">
+                                <p>Ants Rule!</p>
+                            </div>
+                        </li>
+                        <li><img src="http://lorempixel.com/640/480/nature/2" alt=""></li>
+                        <li><img src="http://lorempixel.com/640/480/nature/3" alt=""></li>
+                        <li><img src="http://lorempixel.com/640/480/nature/4" alt=""></li>
+                    </ul>
+                    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+                    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+                    <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                        <li data-uk-slideshow-item="0"><a href=""></a></li>
+                        <li data-uk-slideshow-item="1"><a href=""></a></li>
+                        <li data-uk-slideshow-item="2"><a href=""></a></li>
+                        <li data-uk-slideshow-item="3"><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- end grid --> 
+        <div class="uk-grid uk-grid-divider">
+			<article class="uk-width-medium-2-3 uk-article">
+				<h1 class="uk-article-title">Article title</h1>
+                <p class="uk-article-meta">By Meta</p>
+                <p class="uk-article-lead">The article lead. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae neque deserunt dolor nulla rem, porro doloremque vel nisi ipsum sunt!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae neque deserunt dolor nulla rem, porro doloremque vel nisi ipsum sunt!</p>
+				<div class="uk-grid">
+					<div class="uk-width-medium-1-3">
+						<div class="circle">
+							<span id="circle1">Circle 1</span>
+						</div>
+					</div>	
+					<div class="uk-width-medium-1-3">
+						<div class="circle">
+							<span id="circle2">Circle 2</span>
+						</div>
+					</div>
+					<div class="uk-width-medium-1-3">
+						<div class="circle">
+							<span id="circle3">Circle 3</span>
+						</div>
+					</div>
+				</div>
+			</article>
+			<div class="uk-width-medium-1-3">
+                <aside class="uk-panel uk-panel-box uk-panel-box-primary">
+                    <h3>This is an Aside</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, perferendis.</p>
+                    <a class="uk-button uk-button-danger" href="">A Button</a>
+                </aside>
+            </div>
+		</div> <!-- end grid -->
+
+    </body>
+</html>
+
+
+
+
+

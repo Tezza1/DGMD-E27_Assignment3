@@ -8,5 +8,85 @@
 @import "components/slidenav.scss";
 @import "components/slideshow.scss";
 
-//
 
+/* ============================================================================================
+    Terry add
+=============================================================================================*/
+
+/* --------------------------------------------------------------------------------------------
+Header
+----------------------------------------------------------------------------------------------*/
+.top-logo {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+    padding-top: 2.2em;
+    padding-bottom: 2.2em;
+    text-align: center;
+    font-family: 'Spirax', cursive;
+    /* https://css-tricks.com/adding-stroke-to-web-text/ */
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: grey;
+}
+
+#logo-circle {
+    display: inline;
+    padding: 0.7em;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+/* --------------------------------------------------------------------------------------------
+Navbar
+---------------------------------------------------------------------------------------------*/
+
+.uk-navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-weight: bold;
+}
+
+.uk-navbar a {
+  color: white;
+  font-family: 'Spirax', cursive;
+}
+
+.uk-navbar li a {
+  color: white;
+}
+
+.uk-navbar li:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: grey;
+}
+
+.uk-navbar li a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: grey;
+}
+
+.uk-navbar-center li {
+    padding-left: 3em;;
+}
+
+/* --------------------------------------------------------------------------------------------
+Slideshow
+---------------------------------------------------------------------------------------------*/
+
+/* --------------------------------------------------------------------------------------------
+Form
+---------------------------------------------------------------------------------------------*/
+.uk-form-row {
+  padding-bottom: 1.5em;
+}
+
+.uk-button {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.uk-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: grey;
+}

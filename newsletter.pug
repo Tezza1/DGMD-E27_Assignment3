@@ -1,0 +1,55 @@
+extends structure/_layout.pug
+
+block content
+    .uk-grid.uk-grid-divider
+        .uk-width-medium-1-3
+            p
+        .uk-width-medium-1-3
+            form.uk-form.uk-form-stacked
+                fieldset(data-uk-margin)
+                    legend Sign-up for your newsletter
+                    .uk-form-row
+                        label.uk-form-label(for="") Name:
+                        .uk-form-controls
+                            input(type="text" paceholder="Enter name")
+                    .uk-form-row
+                        label.uk-form-label(for="") Email:
+                        .uk-form-controls
+                            input(type="email" placeholder="Enter email")
+                    .uk-form-row
+                        .uk-form-controls
+                            input(type="checkbox")
+                            label Also send me breaking news and offers
+                    .uk-form-row
+                        label.uk-form-label(for="") Gender:
+                        .uk-form-controls
+                            input(type="radio" id="male" name="radio")
+                            label Male
+                            input(type="radio" id="female" name="radio")
+                            label Female
+                            input(type="radio" id="other" name="radio")
+                            label Other
+                    .uk-form-row
+                        .uk-form-controls
+                            label.uk-form-label(for="") Birthday:
+                            .uk-form-controls
+                                .uk-form-icon
+                                    i.uk-icon-calendar
+                                    input(type="date" paceholder="")
+                    .uk-form-row
+                        label.uk-form-label(for="") Area of interest:
+                        .uk-form-controls
+                            select
+                                option No items selected
+                                option Front-end
+                                option Back-end
+                                option Full stack
+                    .uk-form-row
+                        label.uk-form-label(for="") Comments:
+                        .uk-form-controls
+                            textarea(placeholder="Enter comments" cols="25" rows="5")
+                    .uk-form-row
+                        .uk.form-controls
+                            button.uk-button.uk-button-large Submit form
+        .uk-width-medium-1-3
+            p
