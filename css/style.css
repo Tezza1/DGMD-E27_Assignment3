@@ -1403,7 +1403,7 @@ iframe {
  ========================================================================== */
 .uk-article-title {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 41px;
   font-weight: normal;
   text-transform: none; }
 
@@ -1421,7 +1421,7 @@ iframe {
 /* Sub-object `uk-article-lead`
  ========================================================================== */
 .uk-article-lead {
-  color: #444;
+  color: #3f3f3f;
   font-size: 18px;
   line-height: 24px;
   font-weight: normal; }
@@ -1718,7 +1718,8 @@ ul.uk-nav-sub {
  * Items
  */
 .uk-nav-navbar > li > a {
-  color: #444; }
+  color: #444;
+  background-color: rgba(0, 0, 0, 0.8); }
 
 /*
  * Hover
@@ -1730,7 +1731,8 @@ ul.uk-nav-sub {
   background: #00a8e6;
   color: #fff;
   /* 2 */
-  outline: none; }
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.8); }
 
 /*
  * Sub-object: `uk-nav-header`
@@ -3300,7 +3302,10 @@ select.uk-form-width-mini {
   font-size: 1rem;
   /* 11 */
   text-decoration: none;
-  text-align: center; }
+  text-align: center;
+  border-radius: 1%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white; }
 
 .uk-button:not(:disabled) {
   cursor: pointer; }
@@ -5809,7 +5814,9 @@ a.uk-badge:hover {
   /* 4 */
   padding: 4px;
   border: 1px solid #ddd;
-  background: #fff; }
+  background: #fff;
+  margin-bottom: 1.5em;
+  margin-left: 1.5em; }
 
 /*
  * Hover state for `a` elements
@@ -8879,6 +8886,10 @@ Header
   border-radius: 50%;
   border: 1px solid white; }
 
+@media (max-width: 479px) {
+  #logo-circle {
+    border: none; } }
+
 /* --------------------------------------------------------------------------------------------
 Navbar
 ---------------------------------------------------------------------------------------------*/
@@ -8906,20 +8917,13 @@ Navbar
   padding-left: 3em; }
 
 /* --------------------------------------------------------------------------------------------
-COlumns
+Columns
 ---------------------------------------------------------------------------------------------*/
 .left-panel {
   margin-left: 1em; }
 
 .right-panel {
   margin-right: 1em; }
-
-/* --------------------------------------------------------------------------------------------
-Tumbnails
----------------------------------------------------------------------------------------------*/
-.uk-thumbnail {
-  margin-bottom: 1.5em;
-  margin-left: 1.5em; }
 
 /* --------------------------------------------------------------------------------------------
 Aside
@@ -8938,10 +8942,6 @@ Form
 ---------------------------------------------------------------------------------------------*/
 .uk-form-row {
   padding-bottom: 1.5em; }
-
-.uk-button {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white; }
 
 .uk-button:hover {
   background-color: rgba(0, 0, 0, 0.8);

@@ -1,0 +1,71 @@
+Paste the URL for the assignment web page. You do not need to provide a link for the CSS.
+Indicate your browser/operating system combination (Mac/PC, Firefox/Chrome).
+Provide details about each of the elements described above with HTML document names and line numbers:
+Grid: It is assumed you used the grid system, so no information is required about this. Indicate which of the special grid features you used and its starting line number. Comment the HTML so these features are easy to find.
+Other layout structures:Indicate which structure, the starting line number for this on one page of your site, and comment the HTML.
+Navigation: Indicate the structures used to make a flexible navigation, the starting line number for this on one page of your site, and comment the HTML.
+Styling: for each instance, indicate where (file name and starting line number) and what. Example: Button in index.html on line 23, table in about.html starting line 50, etc. Comment your HTML.
+Form: Indicate which page contains your form, the types of form styling used, and its starting line number. Comment your HTML.
+Core JavaScript widgets: Indicate which widget, which page it's on, and the starting line number. If something appears across multiple pages (maybe a dropdown menu, for example), indicate one page where it's located and its starting line number. Comment the HTML.
+Components: Indicate which components are used, which page(s) they are on, and the starting line numbers. If something appears across multiple pages, indicate one page where it's located and its starting line number. Comment the HTML.
+Sass: Zip up the relevant Sass documents and submit these. Detail where you have made changes in which file(s) and on which line number(s) in those files for your new styles, your variables you change, and the styles you've modified. You do not need to submit all of the Sass documents; submit only the ones you've changed. Comment your Sass.
+Comparison: Zip together your relevant documents and submit, or point to those files online (if you did something like Google Docs, for example). If you are using Google Docs, make sure Kourtnie (kourtniesanders@g.harvard.edu) and I (jen@jenkramer.org) are able to see your document(s). 
+Instructor's Choice: Just as you've done above, indicate what you did, what files are involved, and comment whatever is relevant. The easier you make grading, the happier we are!
+
+---------------------
+
+Paste the URL for the assignment web page. You do not need to provide a link for the CSS.
+
+URL/Link: http://terrys.sgedu.site/DGMD-E27_Assignment3/index.html
+
+Operatimg system: PC/Chrome
+
+* Special Grid Feature used: nested grid
+HTML Document: video.html
+Line#: 53 - 84
+
+Layout Structures: article & panel
+HTML Document: all pages. As an example: video.html
+Line#: Article (46 - 51) & Panel(88 - 100)
+
+Navigation: 
+Flexible Navigation Structure Used: hamburger button
+Line#: 21
+
+* Styled Item: icon
+Filename: newsletter.html
+Starting Line#: 91
+
+* Style: overlay
+Filename: index.html
+Starting Line#: 56
+
+* Style: thumbnail
+Filename: ideo.html
+Starting Line#: 57
+
+* Form:
+Page with Form: newsletter.html
+Type of Form Style: Stacked form
+Starting Line#: 53
+
+* Core JavaScript widgets: 
+Widget: javascript-slideshow & toggle search box
+Page: index.html
+Starting Line#: 53 & 34
+
+* Components
+Component Used: javascript-slideshow
+Page: index.html
+Starting Line#: 53
+
+Component Used: common - form advanced (checkbox and radiobox used)
+Page: newsletter.html
+Starting Line#: 78
+
+* Instructor's choice selection:
+All HTML done with html pre-processor: pug
+Additional navigation items (search & sub-heading)
+Additional right panel & styling
+Additional insight in grid comparison paper
+

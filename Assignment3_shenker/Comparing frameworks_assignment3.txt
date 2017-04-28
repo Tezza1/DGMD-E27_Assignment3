@@ -1,0 +1,53 @@
+WORKING WITH FRONT END FRAMEWORKS
+
+The challenges front-end developers face are the multitude of devices on which their sites are viewed. This means that a responsive, and often mobile-first, approach is a necessity. This adds a layer of complexity and coding to front-end development. Additionally, expectations of the level of performance, quality and design of websites has increased dramatically over recent years. This means that front-end developers are constantly looking for tools that can streamline and improve their work and the rate of change in this area has been startling.
+
+One of the key decisions a front-end develop needs to make is whether to use a framework or not. Frameworks often add layers of complexity to the markup of a webpage as numerous "divs" with classes attached to them, need to be included and CSS-preprocessors are used. Are the benefits of front-frameworks worth this extra overhead of complexity?
+
+This will examined by looking at Twitter's Bootstrap as representative of front-frameworks. Bootstrap currently is the most popular framework by far with over 109,000 stars on github, with their next closest rival obtaining only a little over 25,000 stars. The list below contains an outline of criteria for evaluation
+- Layout / Grid
+- Maintainability
+- Widgets / Components
+- Customization
+- Look & feel
+
+Let's look at each item:
+
+LAYOUT / GRID
+- Responsive design frameworks
+The structure follows a very logical approach with "containers", "rows" and "columns" approach. It is reasonably intuitive. Bootstrap comes with a 12 column layout that makes it easy to create advanced layouts. Mobile ready is also further enhanced by having 4 classes of grids to choose from (phones, tablets, desktops and larger desktops). Although at times some custom elements like "jumbotrons" can produce unusual results when responding to shrinking screen widths and can struggle to make appropriate adjustments. Also, the media queries themselves are written using pixels as the basis for measurement, but the trend has been to move away from this to more responsive units of measurement such as "em"s.
+- Custom responsive design
+To code out a 12 column grid with the appropriate media queries, takes a considerable amount of time. This is one of the major advantages of using a framework. But is does allow you to create media queries that can match specific needs, it also allows you to create a system that relies less heavily on specific breakpoints by focusing on relative units of measurements for fonts, padding, etc. 
+WINNER: Frameworks - the reduced workload and thoroughness is just too much of an advantage
+
+MAINTAINABILITY:
+- Responsive design frameworks
+Bootstrap has a large following, has been around for over 5 years and has hundreds of thousands of followers. Thus, currently and in the short to medium term it will be actively maintained, updated and widely available. The use of CDNs are also useful in ensuring websites remain up-to-date. Also, Bootstrap appears to be quite conscientious about how they depreciate items. The concern with front-end development tools / frameworks is that trends tend to come and go quickly and absolutely. Meaning when a new technology is adopted, current ones relatively quickly become obsolete.  
+- Custom responsive design
+Having developed your own grid system it means you can continue to update it as long as it is required and your system could grow for an indefinite period of time. You are not faced with it no longer being developed because it has been displaced by another trend (which is often fueled by perception and popularity). The problem is the need to diligently maintain on-going notes on your own code base.
+WINNER: short to medium term Frameworks have the advantage but medium to long term custom design gets the edge. Especially due to the fickle and absolute nature of web development trends 
+
+WIDGETS & COMPONENTS
+- Responsive design frameworks
+Bootstrap comes with a wide array of widgets and components to add to your pages that seriously lessen development time. These include: tooltips, carousels, progress bars, etc. This is a major advantage of a front-end framework. But there are 2 main drawbacks. Firstly, Bootstrap's icons can be limiting. They currently ship with 160 icons, whilst using Font Awesome on your custom design provides access to over 370 icons. Bootstrap is also relatively heavy and requires comparatively larger downloads. Bootstrap 3 looked to address this short-coming, but it is still one of the heavier of the popular front-end frameworks. 
+ - Custom responsive design
+Allows you to include a large number of options thanks to the popularity of free 3rd party services like Google Fonts and Font Awesome. It is also easier to include only what you actually need for your site, thus making it a lightweight solution which in a world where using mobiles to surf the internet is ubiquitous, is a key advantage.
+WINNER: A draw. Frameworks for the ease of their one-stop-shop for components versus the variety and light-weight download of custom frameworks.  
+
+CUSTOMIZATION
+- Responsive design frameworks
+Most frameworks are written using a CSS pre-processor. In Bootstrap's case it is currently using LESS, but it will move to SASS in its next iteration. This means that to dive into the CSS requires a knowledge of LESS. Additionally, the code can be quite complex. Adding your own custom stylesheet to overwrite pre-set styling often doesn't produce the desired results  and can lead to time-consuming and frustrating outcomes.
+ - Custom responsive design
+As it is your design you get to choose the language it is written in and changing the design is significantly easier. The code base tends to be much smaller and as you have produced it, less complex. There is also much less chance of a hidden value overwriting your intended style and leading to unpredictable results.
+WINNER: The relatively straightforward nature and ease of manipulating your customer design gives it an advantage in this area. 
+ 
+LOOK & FEEL
+- Responsive design frameworks
+A Bootstrap website can have a very slick look and feel to it. Certainly there are teams of developers producing a design that is very professional. It is easy to produce a modern looking, slick website with just a few lines of code. The only issue is that often, a lot of Bootstrap websites look and feel the same and can be quite bland (a mixture of white, black, blue and shades of grey). Meaning that for yours to standout, you need to do a fair bit of customization. 
+ - Custom responsive design
+It is easy to produce a unique website in that it is your custom design from scratch. But the challenge can be creating something that looks appropriate and sophisticated. Producing this can take a significant amount of time and effort
+WINNER: For small projects with tighter deadlines, Bootstrap has an advantage. For larger products with longer deadlines that allow you the time and effort to invest in creating something spectacular, then your own customized framework gets the edge.
+
+So which is better, a front-end framework or your own custom design? Frameworks provide a head-start and reduce the need to "re-invent" the wheel. But also require more download overhead and can be limiting. So which is better? As always it depends on the circumstances. As web developers part of our skill set must include choosing the right tools for the right job.  
+ 
+ 
